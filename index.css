@@ -1,0 +1,38 @@
+.container{
+    margin: 3%;
+
+}
+h1{
+    font-family:cursive;
+
+}
+p{  font-family:cursive; font-size: large;
+}
+nav{
+    background-color: rgb(67, 143, 241);
+    margin-bottom: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+@media screen and( min-width:567px){
+    .modified{
+        width:100%
+    }
+}
+#body{ background-color: rgb(163, 163, 163);}
+
+#card{
+  width: 22rem;
+  background-color: rgb(11, 12, 12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  justify-content: center;
+  color:wheat
+    
+}
